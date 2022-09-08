@@ -2,3 +2,80 @@ html, body {
   height: 100%;
   width: 100%;
 }
+
+/* this styles the header with a brown background and green words */
+header{
+  background: #432616;
+  color: #128720;
+}
+
+/* this styles the body with a light brown background */
+body{
+  background: #dbc8ac;
+}
+
+/* this styles the footer with a brown background and the block size */
+footer{
+  block-size: 30px;
+  background:#432616 ;
+}
+
+/* this centers the images and sets the margrins */
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:25%;
+  height: 25%
+}
+
+/* this sets all the h1 properties font family*/
+h1{
+  font-family: serif;
+}
+
+/* this sets the h2 properties font family and writing to green */
+h2{
+  font-family: serif;
+  color:#128720;
+}
+
+/* this sets the h3 properties font family  */
+h3{
+  font-family: serif;
+}
+
+/* this sets the paragraphs font family and the writing to red */
+p{
+  font-family: sans-serif;
+  color:brown;
+}
+
+/* this makes the borders round of what its assigned to*/
+.round{
+  border-radius:50%;
+}
+
+/* this sets text to be centered*/
+.center{
+  text-align: center;
+}
+
+/* this sets a block so the writing isnt all the way to the edges */
+.block{
+  display: block;
+  width:75%;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+/* this sets the display to flex */
+.row{
+  display:flex;
+}
+
+/* this makes images size properly into columns*/
+.column{
+  flex:33.33%;
+  padding: 5px;
+}
