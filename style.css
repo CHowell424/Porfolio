@@ -16,6 +16,7 @@ body{
 
 /* this styles the footer with a brown background and the block size */
 footer{
+  font-size: 25px;
   block-size: 30px;
   background:#432616 ;
 }
